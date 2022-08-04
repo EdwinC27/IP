@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<link rel="icon" href="logo.ico">
+		<link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+		<title>Informacion IP</title>
+	</head>
+
+	<body>
+		<main class="container">
+			<form id="form">
+				IP a buscar
+				<label>
+          <input required id="ip" type="text" placeholder="Diguite aqui la IP">
+          <small>Puede ser IPv4 o IPv6</small>
+        </label>
+        
+				<button type="submit" id="submit">Buscar informacion de la IP</button>
+			</form>
+		</main>
+
+		<div class="separar">
+			<pre id="results">
+				
+			</pre>
+		</div>
+
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
